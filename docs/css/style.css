@@ -5,7 +5,7 @@
 }
 
 body {
- background-image: url(../img/backgrounds/PAST_ARCHIVE_SITE_BACKGROUND-AFRSTTEST_SHEDS.jpg); /* Background for the site */
+ background-image: url(../img/backgrounds/henrycgibridge.jpg); /* Background for the site */
  
  background-attachment: fixed;	/* Controls whether background scrolls */
  
@@ -17,10 +17,47 @@ body {
 
 }
 
-#footer	{
-	background-color:	#000;
-	position:	auto;
-	height:	100px;
-	margin-top:	-100;
-	clear: both;
+.nav-area{
+	float:center;
+	list-style: none;
+	margin-top: 25px;	
+	padding-right:	0px;
+	padding-left:	0%;
+	font-family:	Splatfont2;
+	
+}
+
+.logo img{
+		width:	500px;
+		float:	top;
+		padding-left:	0%;
+		padding-top:	0%;
+		margin-top: 20px;
+}
+
+.nav-area li{
+		display: inline-block;
+
+}
+
+.nav-area li a{
+		color: white;
+		background:	maroon;
+		text-decoration: none;
+		padding: 3px 17px;
+		font-size: 18px
+}
+
+.nav-area li a:hover{
+	background:	teal;	
+	color: white;
+}
+
+.release-text{
+	font-family:	Splatfont2;	
+	margin-top: 50px;
+	line-height: .2cm;
+	text-align: center;
+	color:#fff;
+	font-size: 20px;
 }
