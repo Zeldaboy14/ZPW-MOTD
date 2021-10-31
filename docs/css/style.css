@@ -1,0 +1,26 @@
+@font-face	{
+	src:	url(fonts/Splatfont2.ttf);
+	src:	url(fonts/Raleway-Medium.ttf);
+	src:	url(fonts/Triforce.ttf);
+}
+
+body {
+ background-image: url(../img/backgrounds/PAST_ARCHIVE_SITE_BACKGROUND-AFRSTTEST_SHEDS.jpg); /* Background for the site */
+ 
+ background-attachment: fixed;	/* Controls whether background scrolls */
+ 
+ background-size: cover;	/* research */
+ 
+ background-color: rgba(100,100,100,.8); /* Tint color */
+ 
+ background-blend-mode: multiply;	/* Tint for background */
+
+}
+
+#footer	{
+	background-color:	#000;
+	position:	auto;
+	height:	100px;
+	margin-top:	-100;
+	clear: both;
+}
